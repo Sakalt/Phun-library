@@ -1,0 +1,19 @@
+name = 'Phun Blog'
+license = 'MIT'
+licenselink = 'https://github.com/kaeru2193/phunblog/LICENSE'
+description = 'A theme for Phun language blog.'
+
+# Taxonomy terms
+tags = ['blog', 'simple']
+features = ['conlang']
+
+# If the theme has a single author
+[author]
+  name = 'kaeru2193'
+  homepage = 'https://kaeru2193.net'
+
+# If porting an existing theme
+[original]
+  author = ''
+  homepage = ''
+  repo = ''

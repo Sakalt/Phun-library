@@ -1,0 +1,64 @@
+body {
+  background-color: linen;
+  color: #222;
+  font-family: "PhunWrite", sans-serif;
+  font-size: 110%;
+  line-height: 1.5;
+  margin: 1rem;
+  writing-mode: vertical-rl;
+}
+
+.noPhun {
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: initial;
+}
+
+h2 {
+  border-right: black 1px dashed;
+  padding-right: 5px;
+}
+
+.writeIcon {
+  color: #ee5533;
+  border: #ee5533 2px solid;
+  margin-bottom: 10px;
+}
+
+.line {
+  border-right: black 1px dashed;
+  margin: 0 5px 0 5px;
+}
+
+header {
+  border-left: 2px solid #444;
+  margin-left: 1rem;
+}
+
+footer {
+  border-right: 2px solid #444;
+  margin: 0 1rem 0 1rem;
+}
+
+a {
+  color: #366ad3;
+  text-decoration: none;
+}
+a:hover {
+  color: #ee5533;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.phunListNum {
+  margin-top: -2em;
+}
+
+@font-face {
+  font-family: "PhunWrite";
+  src: url(/fonts/PhunWrite-Regular.woff);
+}

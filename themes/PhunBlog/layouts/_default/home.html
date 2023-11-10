@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range site.RegularPages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05Z" }}
+    {{ $dateHuman := .Date | time.Format "2006-01-02T15:04:05+0900" }}
+    <time datetime="{{ $dateMachine }}" class="postDate" name="{{ .RelPermalink }}">{{ $dateHuman }}</time>
+  {{ end }}
+{{ end }}

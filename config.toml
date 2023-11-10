@@ -1,7 +1,8 @@
 baseURL = "https://gohugo.io"
-title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+title = "栄言記集"
+theme = 'PhunBlog'
+author = "kaeru2193"
+copyright = "©　二〇二三　之機"
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -11,12 +12,16 @@ enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 
 [menu]
-
   [[menu.main]]
     identifier = "about"
-    name = "About"
-    url = "/about/"
+    name = "我事"
+    url = "/about-me/"
     weight = 10
+  [[menu.main]]
+    identifier = "home"
+    name = "庵"
+    url = "/"
+    weight = 1
 
 [taxonomies]
 category = "categories"
