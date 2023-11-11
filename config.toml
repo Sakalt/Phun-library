@@ -4,8 +4,8 @@ theme = 'PhunBlog'
 author = "kaeru2193"
 copyright = "©　二〇二三　之機"
 paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
+languageCode = "pn"
+DefaultContentLanguage = "pn"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
