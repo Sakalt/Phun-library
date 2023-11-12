@@ -2,45 +2,179 @@ body {
   background-color: linen;
   color: #222;
   font-family: "PhunWrite", sans-serif;
-  font-size: 110%;
-  line-height: 1.5;
-  margin: 1rem;
+  font-size: 120%;
+  line-height: 1.6;
+  letter-spacing: 0.2em;
+  margin: auto 20px;
   writing-mode: vertical-rl;
   height: 90vh;
 }
 
+.siteTitle {
+  font-size: 30px;
+  background-color: #224488;
+  color: linen;
+  height: fit-content;
+  position: relative;
+  padding: 5px;
+  margin: 0 20px;
+}
+
+.siteTitle::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  bottom: -6px;
+  left: -6px;
+  right: -6px;
+  border: solid 4px #224488;
+}
+
+p {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+ul, ol, p {
+  margin: 0 5px;
+}
+
+p + p {
+  margin-right: 1.5em;
+}
+
+p:has(+ p) {
+  margin-left: 1.5em;
+}
+
 .noPhun {
-  font-family: sans-serif;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.posts {
+  font-size: 28px;
+  padding: 5px 0;
+  border-right: #222 solid 1px;
+}
+
+#contentBox > p, #contentBox > ul {
+  background-image: linear-gradient(90deg, #666 1px, transparent 1px);
+  background-size: 1.6em 100%;
+  padding-left: 1px;
+  background-repeat: repeat-x;
+  background-origin: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: initial;
+  margin: 0;
+  
+}
+
+h1, h3, h4, h5, h6 {
+  margin-top: 5px;
 }
 
 h2 {
-  border-right: black 1px dashed;
-  padding-right: 5px;
+  font-size: 28px;
+  border: solid #222;
+  border-width: 0 3px 0 3px;
+  text-align: center;
+}
+
+h2::before {
+  content: url(/svg/h2bracket_start.svg);
+  margin-bottom: 20px;
+}
+
+h2::after {
+  content: url(/svg/h2bracket_end.svg);
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  background-color: #222;
+  color: linen;
+  margin: 8px 8px 0 8px;
+  padding: 1em 0;
+  height: fit-content;
+  position: relative;
+}
+
+h3::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+  border: solid 3px #222;
+}
+
+h4 {
+  font-size: 22px;
+  text-align: left;
+  background-color: #222;
+  color: linen;
+  height: fit-content;
+  padding: 5px 0;
+}
+
+h5 {
+  font-size: 22px;
+  border: 2px #222 solid;
+  height: fit-content;
+}
+
+h6 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 1em 10px auto 10px;
+  border-top: 10px #222 solid;
 }
 
 .writeIcon {
-  color: #ee5533;
-  border: #ee5533 2px solid;
   margin-bottom: 10px;
 }
 
+.postContainer {
+  margin: auto 5px 0 5px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .line {
-  border-right: black 1px dashed;
-  margin: 0 5px 0 5px;
+  border-right: #222 3px solid;
+  margin: 0 5px;
+}
+
+figure {
+  margin: 1.5em 1.5em;
+}
+
+.imgCap {
+  writing-mode: horizontal-tb;
+  letter-spacing: normal;
 }
 
 header {
-  border-left: 2px solid #444;
   margin-left: 1rem;
 }
 
 footer {
-  border-right: 2px solid #444;
-  margin: 0 1rem 0 1rem;
+  margin: 0 20px;
+}
+
+main {
+  border: #222 3px solid;
+  padding: 0;
 }
 
 a {

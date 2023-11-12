@@ -8,7 +8,7 @@ date = 2023-11-10T14:42:13+09:00
 
 通造思造言「栄言」、来思造世「栄世」。等居内異網処。
 
-{{< figure src="./kaeru.png" width=100 >}}
+{{< img src="./kaeru.png" title="之機画" width=100 >}}
 
 ## 網架
 

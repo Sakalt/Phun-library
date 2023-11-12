@@ -1,0 +1,8 @@
+{{ define "postDate" }}
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05Z" }}
+    {{ $dateHuman := .Date | time.Format "2006-01-02T15:04:05+0900" }}
+    <span class="postContainer">
+        <img src="/svg/dateicon.svg" width="25px" class="writeIcon"></img>
+        <span datetime="{{ $dateMachine }}" class="postDate" name="{{ .RelPermalink }}" data-time="{{ $dateHuman }}"></span>
+    </span>
+{{ end }}
