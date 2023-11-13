@@ -52,22 +52,23 @@ ol li, ul li {
 
 ol li::before, ul li::before {
   background-repeat: no-repeat;
-  background-size: 1.5rem;
+  background-size: 1.3rem;
   background-position: center;
-  padding-top: 0.3rem;
+  padding-top: 0.2rem;
 
   font-weight: bold;
   text-align: center;
-  vertical-align: middle;
   
+  width: 1.6rem;
+  height: 1.6rem;
   position: absolute;
-  width: 1.5rem;
-  height: 1.5rem;
+  box-sizing: border-box;
+
   top: -1.3rem;
-  transform: scale(0.7) translate(-1px, -0.5rem);
+  transform: scale(0.8) translate(0, -0.5rem);
 }
 
-ul li::before {
+ul > li::before {
   content: "";
 }
 
