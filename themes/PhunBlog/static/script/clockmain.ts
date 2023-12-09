@@ -140,6 +140,15 @@ export class EikyuDate {
         }
         return `${obj.yea}年${obj.sea}季${obj.poi}旬${obj.day}日`
     }
+    getPhunSeason() {
+        const funNumber = new FunNumber()
+        const eikyuObj = this.toEikyuFormat()
+        const obj = {
+            sea: funNumber.toPhunCalcNum(eikyuObj.sea),
+            yea: funNumber.toPhunCalcNum(eikyuObj.yea),
+        }
+        return `${obj.yea}年${obj.sea}季`
+    }
     getPhunHTMLBase12() {
         const funNumber = new FunNumber()
         const eikyuObj = this.toEikyuFormat()

@@ -11,6 +11,9 @@ body {
   margin: auto 20px;
   writing-mode: vertical-rl;
   height: 90vh;
+  overflow-wrap: break-word;
+  overflow-y: hidden;
+  word-break: break-all;
 }
 
 .siteTitle, .posts {
@@ -210,17 +213,6 @@ th {
   color: #222;
 }
 
-pre {
-  background-color: #222;
-  color: white;
-  margin: 0;
-}
-
-code, code span {
-  font-family: "PhunWrite";
-  margin: 5px 0;
-}
-
 blockquote {
   margin: 1em 10px auto 10px;
   border-top: 10px #222 solid;
@@ -245,11 +237,34 @@ blockquote {
 
 figure {
   margin: 1.5em 1.5em;
+  display: inline-block;
+  height: fit-content;
 }
 
 .imgCap {
   writing-mode: horizontal-tb;
   letter-spacing: normal;
+}
+
+.earthQuote, pre {
+  font-size: 16px;
+  background-color: #222;
+  color: linen;
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.earthQuote {
+  font-family: Consolas, 'Courier New', Courier, Monaco, monospace, sans-serif;
+}
+
+span.earthQuote {
+  margin: 3px auto;
+  padding: 3px 1px;
+}
+
+.phun {
+  font-family: "PhunWrite";
 }
 
 header {

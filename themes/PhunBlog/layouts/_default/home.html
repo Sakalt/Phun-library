@@ -4,4 +4,11 @@
     <div class="posts"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
     {{ template "postDate" . }}
   {{ end }}
+
+  <h2>古記</h2>
+  <ul>
+    {{ range $name, $items := .Site.Taxonomies.archives }}
+      <li><a class="postDateConvPhun" data-time="{{ $name }}" href="{{ $.Site.BaseURL }}archives/{{ $name | urlize | lower }}"></a></li>
+    {{ end }}
+  </ul>
 {{ end }}

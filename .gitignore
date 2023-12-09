@@ -24,3 +24,7 @@ _testmain.go
 
 /public
 .DS_Store
+
+# コマンド用設定ファイル
+
+package.json

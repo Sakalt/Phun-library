@@ -11,6 +11,14 @@ enableInlineShortcodes = true
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
+[Params]
+  disableComments=true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -26,7 +34,7 @@ ignoreErrors = ["error-remote-getjson"]
 [taxonomies]
 category = "categories"
 tag = "tags"
-series = "series"
+archive = "archives"
 
 [privacy]
 
