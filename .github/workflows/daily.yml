@@ -1,7 +1,7 @@
 name: Daily build
 on:
   schedule:
-    - cron: '0 9 * * *' # UTC であることに注意
+    - cron: '0 16 * * *'
 env:
   URL: ${{ secrets.NETLIFY_BUILD_HOOK_URL }}
 jobs:
