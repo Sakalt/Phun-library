@@ -272,7 +272,7 @@ header {
 }
 
 footer {
-  margin: 0 20px;
+  margin: 0;
 }
 
 main {
@@ -290,6 +290,32 @@ a:hover {
 
 .phunListNum {
   margin-top: -2em;
+}
+
+footer {
+  margin-right: 25px;
+}
+
+.SNS {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  border-right: 2px #222 solid;
+  height: 75vh;
+  margin: auto;
+}
+
+.SNSLink {
+  height: 35px;
+  margin: 7px 7px;
+}
+
+.copyright {
+  text-align: center;
+  margin: 0 30px 0 10px;
 }
 
 @font-face {
