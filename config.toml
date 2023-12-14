@@ -13,6 +13,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 [Params]
   disableComments=true
+  images = ["/ogp/image.png"]
 
 [markup]
   [markup.goldmark]
