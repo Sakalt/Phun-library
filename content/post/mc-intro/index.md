@@ -8,6 +8,9 @@ archives = ["125a/8"]
 >之記為、〡〹序日内[言知白宗天交](https://adventar.org/calendars/8540)。
 
 穏永！我為之機。
+
+之日為冬頂。汝流入果然温杯？
+
 由我言内[之秋思世造論](https://www.youtube.com/live/hIRhxuGjQnM?si=cEnGEkGZS0ldMXQM&t=6532)、訓「思造言内我世造万」内之記。
 
 汝知「[我世造万](https://www.minecraft.net/ja-jp)」(世万)如？之為頂多商在地丸然雷楽。
