@@ -9,7 +9,7 @@ archives = ["125a/8"]
 
 穏永！我為之機。
 
-之日為冬頂。汝流入果然温杯？
+之日為冬頂。汝流入果然温杯如？
 
 由我言内[之秋思世造論](https://www.youtube.com/live/hIRhxuGjQnM?si=cEnGEkGZS0ldMXQM&t=6532)、訓「思造言内我世造万」内之記。
 
