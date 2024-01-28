@@ -1,7 +1,7 @@
 html {
   background-color: linen;
   color: #222;
-  font-family: "PhunWrite", sans-serif;
+  font-family: "Phun-Sans", "PhunWrite", sans-serif;
   font-size: 20px;
 }
 
@@ -264,7 +264,7 @@ span.earthQuote {
 }
 
 .phun {
-  font-family: "PhunWrite";
+  font-family: "PhunSans-Rounded-Regular";
 }
 
 header {
@@ -321,4 +321,16 @@ footer {
 @font-face {
   font-family: "PhunWrite";
   src: url(https://kaeru2193.github.io/Phun-Resources/font/PhunWrite-Regular-latest.woff);
+}
+
+@font-face {
+  font-family: "Phun-Sans";
+  font-weight: normal;
+  src: url(https://kaeru2193.github.io/Phun-Resources/font/Phun-Sans/Phun-Sans-Rounded-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Phun-Sans";
+  font-weight: bold;
+  src: url(https://kaeru2193.github.io/Phun-Resources/font/Phun-Sans/Phun-Sans-Rounded-Bold.woff) format("woff");
 }
